@@ -1,24 +1,21 @@
-<h1 align="center">✨ Next.js Full Course - Build a Social App ✨</h1>
+<h1 align="center"> Build a Blog Application ✨</h1>
 
-![Demo App](/public/screenshot-for-readme.png)
 
-[Watch Full Tutorial on Youtube](https://youtu.be/vUYopHWOURg)
+### Key Features:
 
-Highlights:
-
-- 🚀 Tech stack: Next.js App Router, Postgres, Prisma, Clerk & TypeScript
-- 💻 Server Components, Layouts, Route Handlers, Server Actions
-- 🔥 loading.tsx, error.tsx, not-found.tsx
-- 📡 API Integration using Route Handlers
-- 🔄 Data Fetching, Caching & Revalidation
-- 🎭 Client & Server Components
-- 🛣️ Dynamic & Static Routes
-- 🎨 Styling with Tailwind & Shadcn
-- 🔒 Authentication & Authorization
-- 📤 File Uploads with UploadThing
-- 🗃️ Database Integration with Prisma
-- 🚀 Server Actions & Forms
-- ⚡ Optimistic Updates
+- 🚀 Built with Next.js App Router, Postgres, Prisma, Clerk, and TypeScript
+- 💻 Utilizes Server Components, Layouts, Route Handlers, and Server Actions
+- 🔥 Includes loading.tsx, error.tsx, and not-found.tsx for enhanced UX
+- 📡 API handling through Route Handlers
+- 🔄 Implements Data Fetching, Caching, and Revalidation
+- 🎭 Combines Client and Server Components seamlessly
+- 🛣️ Supports both Dynamic and Static Routing
+- 🎨 Styled using Tailwind CSS and Shadcn
+- 🔒 Secure Authentication and Authorization
+- 📤 Enables File Uploads via UploadThing
+- 🗃️ Database management powered by Prisma
+- 🚀 Features Server Actions and Form Handling
+- ⚡ Provides Optimistic UI Updates
 
 ### Setup .env file
 
