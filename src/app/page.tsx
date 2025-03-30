@@ -66,7 +66,7 @@ export default async function Home() {
                   </div>
                   <div>
                     <h2 className="text-lg font-bold text-gray-800 dark:text-white">
-                      {user ? `Hi, ${user.firstName}!` : "Welcome to Socially!"}
+                      {user ? `Hi, ${user.firstName}!` : "Welcome to Blog Application!"}
                     </h2>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
                       {user ? "Ready to connect?" : "Join the community"}
