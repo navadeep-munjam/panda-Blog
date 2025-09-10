@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pandablog
+  namespace: panda
+spec:
+  type: NodePort  # we’ll expose via ngrok, so NodePort works best
+  selector:
+    app: pandablog
+  ports:
+    - name: http
+      port: 80
+      targetPort: 3000
+      nodePort: 30000   
