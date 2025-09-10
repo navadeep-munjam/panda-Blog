@@ -200,7 +200,8 @@ export async function deletePost(postId: string) {
     });
 
     if (!post) throw new Error("Post not found");
-    if (post.authorId !== userId) throw new Error("Unauthorized - no delete permission");
+    if (post.authorId !== userId)
+      throw new Error("Unauthorized - no delete permission");
 
     await prisma.post.delete({
       where: { id: postId },
